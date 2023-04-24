@@ -2,6 +2,8 @@ import React, {useState, useRef} from "react";
 import "./Header.css"
 import {NavLink} from "react-router-dom";
 import {motion, AnimatePresence} from "framer-motion";
+import logo from "../images/header/logo.png"
+import myPhoto from "../images/Contact/myPhoto.png"
 
 const Header = (props) => {
     const {
@@ -25,7 +27,7 @@ const Header = (props) => {
                 <div className="header__nav">
                     <div className="header__promo">
                         <NavLink to="portfolio/" className="header__link">
-                            <img src="./images/header/logo.png" alt="#logo" className="header__logo"/>
+                            <img src={logo} alt="#logo" className="header__logo"/>
                         </NavLink>
                         <button ref={ref} onClick={handleVisibilityMenu} className="header__open-nav">
                             {title}
@@ -88,7 +90,7 @@ const Header = (props) => {
                                     className="contact"
                                 >
                                     <div className="contact__page">
-                                        <img src="./images/Contact/myPhoto.png" alt="myPhoto" className="contact__image"/>
+                                        <img src={myPhoto} alt="myPhoto" className="contact__image"/>
                                         <div className="contact__info">
                                             <p className="contact__name">
                                                 Плехов Андрей Дмитриевич

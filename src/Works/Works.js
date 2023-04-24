@@ -1,6 +1,8 @@
 import React from "react";
 import "./Works.css";
 import {motion} from "framer-motion";
+import sixCities from "../images/Works/six-cities.jpg"
+import bigTrip from "../images/Works/big-trip.jpg"
 
 const textAnimation = {
     hidden: {
@@ -16,7 +18,11 @@ const textAnimation = {
 
 const Works = () => {
 return (
-        <div className="Works">
+        <motion.div className="Works"
+                    initial={{width: 0}}
+                    animate={{width: "100%"}}
+                    exit={{x: window.innerWidth, transition: {duration: 0.3}}}
+        >
             <div className="works__title">
                 Некоторые работы
             </div>
@@ -39,7 +45,7 @@ return (
                             Six cities
                         </div>
                         <a href="https://github.com/fundxx/six-cities" target="_blank" rel="noreferrer" className="projects__link">
-                            <img src="./images/Works/six-cities.jpg" alt="project" className="projects__photo"/>
+                            <img src={sixCities} alt="project" className="projects__photo"/>
                         </a>
                     </motion.div>
                     <motion.div
@@ -51,12 +57,12 @@ return (
                             Big trip
                         </div>
                         <a href="https://fundxx.github.io/big-trip/" target="_blank" rel="noreferrer" className="projects__link">
-                            <img src="./images/Works/big-trip.jpg" alt="project" className="projects__photo"/>
+                            <img src={bigTrip} alt="project" className="projects__photo"/>
                         </a>
                     </motion.div>
                 </div>
             </motion.div>
-        </div>
+        </motion.div>
     )
 }
 

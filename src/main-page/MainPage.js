@@ -3,6 +3,9 @@ import "./MainPage.css"
 import Skills from "./Skills/Skills";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
+import mainPhoto from "../images/Main/title.jpg"
+import selfLearn from "../images/how-studied/selfLearn.gif"
+import htmlAcad from "../images/how-studied/htmlAcad.jpg"
 
 const textAnimation = {
     hidden: {
@@ -18,7 +21,11 @@ const textAnimation = {
 
 const MainPage = () => {
     return (
-        <div className="MainPage">
+        <motion.div className="MainPage"
+                    initial={{width: 0}}
+                    animate={{width: "100%"}}
+                    exit={{x: window.innerWidth, transition: {duration: 0.3}}}
+        >
             <div className="title">
                 <div className="title__intro">
                     <h2 className="title__caption">
@@ -31,7 +38,7 @@ const MainPage = () => {
                     </p>
                 </div>
                 <div className="title__photo">
-                    <img src="./images/Main/title.jpg" alt="#myPhoto" className="title__img"/>
+                    <img src={mainPhoto} alt="#myPhoto" className="title__img"/>
                 </div>
             </div>
 
@@ -76,7 +83,7 @@ const MainPage = () => {
                 </h2>
                 <div className="how-studied__grid-container">
                     <motion.div variants={textAnimation} custom={1} className="how-studied__item">
-                        <img src="./images/how-studied/selfLearn.gif" alt="#selfLearn" className="how-studied__selfLearn"/>
+                        <img src={selfLearn} alt="#selfLearn" className="how-studied__selfLearn"/>
                         <div className="how-studied__caption">
                             самостоятельное
                             обучение
@@ -89,7 +96,7 @@ const MainPage = () => {
                         </div>
                     </motion.div>
                     <motion.div variants={textAnimation} custom={2} className="how-studied__item">
-                        <img src="./images/how-studied/htmlAcad.jpg" alt="#selfLearn" className="how-studied__selfLearn"/>
+                        <img src={htmlAcad} alt="#selfLearn" className="how-studied__selfLearn"/>
                         <div className="how-studied__caption">
                             Html Academy
                         </div>
@@ -101,7 +108,7 @@ const MainPage = () => {
                         </div>
                     </motion.div>
                     <motion.div variants={textAnimation} custom={3} className="how-studied__item">
-                        <img src="./images/how-studied/selfLearn.gif" alt="#selfLearn" className="how-studied__selfLearn"/>
+                        <img src={selfLearn} alt="#selfLearn" className="how-studied__selfLearn"/>
                         <div className="how-studied__caption">
                             Домашние проекты
                         </div>
@@ -127,7 +134,7 @@ const MainPage = () => {
             </div>
 
 
-        </div>
+        </motion.div>
     )
 }
 

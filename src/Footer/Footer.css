@@ -14,7 +14,8 @@
 .copyright{
     font-size: 10px;
     writing-mode: vertical-lr;
-    rotate: 180deg;
+    transform: rotate(180deg);
+    /*rotate: 180deg;*/
 }
 .vertical-line{
     margin-top: 8px;

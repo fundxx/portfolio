@@ -136,6 +136,11 @@
     z-index: 5;
 }
 
+@media screen and (max-width:  1600px){
+    .header {
+        background: #1C222A;
+    }
+}
 
 @media (max-width: 575px) {
     .header{
@@ -236,7 +241,8 @@
         grid-template-columns: 1fr;
         width: 100%;
     }
-    .fullscreen__nav-signature{
+
+    .fullscreen__nav-signature {
         display: none;
     }
 }

@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css"
 import {motion} from "framer-motion";
+import stella from "../images/About/stella.png"
+import cat from "../images/About/cat.png"
+import mountain from "../images/About/mountain.png"
 
 const textAnimation = {
     hidden: {
@@ -17,9 +20,12 @@ const textAnimation = {
 const About = () => {
     return (
         <motion.div className="About"
-                    initial={{opacity:0}}
-                    animate={{opacity: 1}}
-                    transition={{duration:0.9}}
+                    // initial={{opacity:0}}
+                    // animate={{opacity: 1}}
+                    // transition={{duration:0.9}}
+                    initial={{width: 0}}
+                    animate={{width: "100%"}}
+                    exit={{x: window.innerWidth, transition: {duration: 0.3}}}
         >
             <div className="about__caption">
                 Обо мне
@@ -29,7 +35,7 @@ const About = () => {
                 начинает свой путь в этой сфере.
             </div>
             <div className="about__interview interview">
-                <img src="./images/About/stella.png" alt="stella_RnD" className="interview__photo photo1"/>
+                <img src={stella} alt="stella_RnD" className="interview__photo photo1"/>
                 <motion.div
                     initial="hidden"
                     whileInView="visible"
@@ -61,7 +67,7 @@ const About = () => {
                         занятие веб разработкой, которое и полюбил. Здесь я мог проэктировать, создавать дизайны и реализовывать всё своими руками.
                     </motion.div>
                 </motion.div>
-                <img src="./images/About/cat.png" alt="mountain" className="interview__photo photo2"/>
+                <img src={cat} alt="mountain" className="interview__photo photo2"/>
 
                 <motion.div
                     initial="hidden"
@@ -78,7 +84,7 @@ const About = () => {
                         в недолгую поездку по различным регионам России.
                     </motion.div>
                 </motion.div>
-                <img src="./images/About/mountain.png" alt="mountain" className="interview__photo photo3"/>
+                <img src={mountain} alt="mountain" className="interview__photo photo3"/>
 
 
             </div>
