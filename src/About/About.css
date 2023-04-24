@@ -1,0 +1,98 @@
+.about{
+
+}
+.about__caption{
+    display: inline-block;
+    color: #EDB021;
+    font-size: 48px;
+    line-height: 48px;
+    border-bottom: #6A655D 2px solid;
+}
+.about__signature{
+    max-width: 800px;
+    margin-top: 75px;
+    font-size: 24px;
+    line-height: 24px;
+}
+.about__interview{
+    margin-top: 185px;
+}
+.interview{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:"text1 text1 photo1"
+                        "photo2 text2 text2"
+                        "text3 text3 photo3"
+;
+    gap: 170px 35px;
+    align-items: center;
+    justify-items: center;
+}
+.interview__preview{
+    letter-spacing: 1.5px;
+}
+.interview__item{
+}
+.interview__caption{
+    font-size: 24px;
+}
+.interview__signature{
+    margin-top: 5px;
+}
+.interview__photo{
+}
+.text1{
+    grid-area: text1;
+}
+.photo1{
+    grid-area: photo1;
+}
+.text2{
+    grid-area: text2;
+}
+.photo2{
+    grid-area: photo2;
+}
+.text3{
+    grid-area: text3;
+}
+.photo3{
+    grid-area: photo3;
+}
+@media (max-width: 575px) {
+    .about__interview{
+        margin-top: 10px;
+    }
+    .about__caption{
+        font-size: 38px;
+    }
+    .about__signature{
+        font-size: 18px;
+    }
+    .interview {
+        display: block;
+    }
+    .interview__photo {
+        display: block;
+        margin: 10px auto;
+
+    }
+    .interview__caption{
+        color: #EDB021;
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}

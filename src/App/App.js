@@ -1,18 +1,22 @@
-import './App.css';
+import React from "react";
+import {BrowserRouter} from "react-router-dom";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import "./App.css"
+import AnimatedRoutes from "../AnimatedRoutes/AnimatedRoutes";
 
-function App() {
-  return (
-    <>
-      <h1>Hello react</h1>
-      <p className="text">hello react text</p>
-      <select>
-        <option value="1">One</option>
-        <option value="2">two</option>
-      </select>
-      <hr/>
-        <img src="/images/corgik.gif" alt="corgi" className="corgi"/>
-    </>
-  );
+const App = () => {
+    return (
+        <>
+            <BrowserRouter>
+                <Header/>
+                <div className="container">
+                    <AnimatedRoutes/>
+                </div>
+                <Footer />
+            </BrowserRouter>
+        </>
+    )
 }
 
 export default App;

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d247b61-603e-44ba-9d40-9bab39ad9dd2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/About/About.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimatedRoutes/AnimatedRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimatedRoutes/AnimatedRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Not-found/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Not-found/NotFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Works/Works.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Works/Works.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Works/Works.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Works/Works.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-page/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-page/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-page/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-page/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main-page/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main-page/Skills/Skills.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2D5Q97IvqLA4pMcVxaJfbA0ovb1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/Works" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\petProject\portfolio\public\images\Works" />
+      <recent name="C:\Users\User\Desktop\petProject\portfolio\src\main-page\Game" />
+      <recent name="C:\Users\User\Desktop\petProject\portfolio\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\petProject\portfolio\public\images" />
+      <recent name="C:\Users\User\Desktop\petProject\portfolio\public\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d247b61-603e-44ba-9d40-9bab39ad9dd2" name="Changes" comment="" />
+      <created>1659986340081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659986340081</updated>
+      <workItem from="1659986343203" duration="1919000" />
+      <workItem from="1659990358912" duration="884000" />
+      <workItem from="1659996474584" duration="6321000" />
+      <workItem from="1660003138653" duration="274000" />
+      <workItem from="1660026380827" duration="3579000" />
+      <workItem from="1660035729282" duration="6455000" />
+      <workItem from="1660045536207" duration="258000" />
+      <workItem from="1660045972635" duration="6510000" />
+      <workItem from="1660055742428" duration="2942000" />
+      <workItem from="1660066029759" duration="4246000" />
+      <workItem from="1660081077061" duration="4000" />
+      <workItem from="1660126161226" duration="18520000" />
+      <workItem from="1660152309565" duration="2167000" />
+      <workItem from="1660158544874" duration="3384000" />
+      <workItem from="1660162725369" duration="4586000" />
+      <workItem from="1660205583546" duration="4197000" />
+      <workItem from="1660213859916" duration="5770000" />
+      <workItem from="1660222715379" duration="1772000" />
+      <workItem from="1660234621071" duration="2700000" />
+      <workItem from="1660252740981" duration="891000" />
+      <workItem from="1660732162583" duration="3713000" />
+      <workItem from="1660741826252" duration="6561000" />
+      <workItem from="1660913100633" duration="1646000" />
+      <workItem from="1660920078258" duration="1575000" />
+      <workItem from="1661067877672" duration="2920000" />
+      <workItem from="1661071816181" duration="19460000" />
+      <workItem from="1661100557138" duration="2087000" />
+      <workItem from="1661241926012" duration="12315000" />
+      <workItem from="1661262298847" duration="5722000" />
+      <workItem from="1661269051786" duration="636000" />
+      <workItem from="1661331035087" duration="8196000" />
+      <workItem from="1661689438155" duration="3000000" />
+      <workItem from="1661897578570" duration="94000" />
+      <workItem from="1662711264942" duration="698000" />
+      <workItem from="1663175347965" duration="651000" />
+      <workItem from="1663183760709" duration="12000" />
+      <workItem from="1663616844118" duration="65000" />
+      <workItem from="1664389626671" duration="228000" />
+      <workItem from="1664528805339" duration="93000" />
+      <workItem from="1667674218922" duration="190000" />
+      <workItem from="1667674801092" duration="1969000" />
+      <workItem from="1667722151710" duration="4120000" />
+      <workItem from="1667732542385" duration="4010000" />
+      <workItem from="1667753690126" duration="1372000" />
+      <workItem from="1667758512051" duration="2809000" />
+      <workItem from="1667810360768" duration="5381000" />
+      <workItem from="1667828926221" duration="1017000" />
+      <workItem from="1667839705966" duration="152000" />
+      <workItem from="1667844529596" duration="72000" />
+      <workItem from="1669576613348" duration="171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

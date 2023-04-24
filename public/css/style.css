@@ -1,0 +1,40 @@
+@import "normalize.css";
+
+*{
+    color: #dcdcdc;
+    font-weight: 400;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 0.075em;
+}
+a {
+    text-decoration: none;
+}
+body{
+    background-color: #1C222A;
+    overflow-x: hidden;
+}
+.wrapper{
+    padding: 0 60px;
+    position: relative;
+}
+li{
+    list-style-type: none;
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+@media (max-width: 575px) {
+    .wrapper{
+        padding: 0 5px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .wrapper{
+        padding: 0 15px;
+    }
+}
